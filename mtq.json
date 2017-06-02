@@ -27,7 +27,7 @@
         }
       }
     },
-    {      "title": "Villages-relais par Transports Québec",      "type": "wms",      "source": {        "url": "/ws/igo_gouvouvert.fcgi",        "params": {          "layers": "MTQ_RELAIS",          "version": "1.3.0"        }      }    }
+    {      "title": "Villages-relais par Transports Québec2",      "type": "wms",      "source": {        "url": "/ws/igo_gouvouvert.fcgi",        "params": {          "layers": "MTQ_RELAIS",          "version": "1.3.0"        }      }    }
     ,{
       "title": "Villages-relais par Transports Québec",
       "type": "wms",
