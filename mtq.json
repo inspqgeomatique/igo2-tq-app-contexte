@@ -31,9 +31,9 @@
       "title": "DT",
       "type": "wms",
       "source": {
-        "url": "http://geocatalogue.mtq.qc/geoserver/wms",
+        "url": "https://ws.mapserver.unit.mtq.min.intra/sigo",
         "params": {
-          "layers": "DT_MTQ",
+          "layers": "gch_v_fichr_maitr_res_ornierage",
           "version": "1.3.0"
         }
       }
