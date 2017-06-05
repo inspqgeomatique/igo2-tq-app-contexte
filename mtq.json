@@ -27,24 +27,46 @@
         }
       }
     },
-    {
-      "title": "2Villages-relais par Transports Québec",
-      "type": "wms",
-      "source": {
-        "url": "https://geoegl.msp.gouv.qc.ca/ws/igo_gouvouvert.fcgi",
-        "params": {
-          "layers": "MTQ_RELAIS", 
-          "version": "1.3.0"
-        }
-      }
-    },
-    {
+      {
       "title": "DG",
       "type": "wms",
       "source": {
         "url": "https://ws.mapserver.unit.mtq.min.intra/sigo",
         "params": {
           "layers": "bgr_v_dirct_genrl_geomt_act_wms",
+          "version": "1.3.0"
+        }
+      }
+    },
+       {
+      "title": "Voie Circulation",
+      "type": "wms",
+      "source": {
+        "url": "https://ws.mapserver.unit.mtq.min.intra/sigo",
+        "params": {
+          "layers": "iit_wms_sevc_ligne_permn",
+          "version": "1.3.0"
+        }
+      }
+    },
+     {
+      "title": "Aérien Actif et ATRAQ",
+      "type": "wms",
+      "source": {
+        "url": "https://ws.mapserver.unit.mtq.min.intra/sigo",
+        "params": {
+          "layers": "GSS_Aerien_ATRAQ",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "FMR - Orniérage",
+      "type": "wms",
+      "source": {
+        "url": "https://ws.mapserver.unit.mtq.min.intra/sigo",
+        "params": {
+          "layers": "gch_v_fichr_maitr_res_ornierage",
           "version": "1.3.0"
         }
       }
