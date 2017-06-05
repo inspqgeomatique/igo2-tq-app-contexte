@@ -42,7 +42,7 @@
       "title": "DG",
       "type": "wms",
       "source": {
-        "url": "https://ws.mapserver.mtq.min.intra/sigo",
+        "url": "https://ws.mapserver.unit.mtq.min.intra/sigo",
         "params": {
           "layers": "bgr_v_dirct_genrl_geomt_act_wms",
           "version": "1.3.0"
