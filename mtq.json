@@ -28,7 +28,7 @@
       }
     },
      {
-      "title": "DT",
+      "title": "Orinérage",
       "type": "wms",
       "source": {
         "url": "https://ws.mapserver.unit.mtq.min.intra/sigo",
