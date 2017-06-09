@@ -39,12 +39,12 @@
       }
     },
    {
-      "title": "Espace vert",
+      "title": "CIR-Unit",
       "type": "wms",
       "source": {
         "url": "https://ws.mapserver.unit.mtq.min.intra/sigo",
         "params": {
-          "layers": "iit_wms_vert_surface_permn",
+          "layers": "CIR-Circulation_routiere",
           "version": "1.3.0"
         }
       }
