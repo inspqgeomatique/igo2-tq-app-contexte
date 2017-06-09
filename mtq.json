@@ -39,12 +39,12 @@
       }
     },
    {
-      "title": "DG",
+      "title": "Espace vert",
       "type": "wms",
       "source": {
         "url": "https://ws.mapserver.unit.mtq.min.intra/sigo",
         "params": {
-          "layers": "bgr_v_dirct_genrl_geomt_act_wms",
+          "layers": "iit_wms_vert_surface_permn",
           "version": "1.3.0"
         }
       }
