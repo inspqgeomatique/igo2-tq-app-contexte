@@ -1,0 +1,81 @@
+{
+  "uri": "olivier",
+  "title": "Olivier",
+  "map": {
+    "view": {
+      "projection": "EPSG:3857",
+      "center": [-72, 52],
+      "zoom": 6
+    }
+  },
+  "layers": [
+    {
+      "title": "Fond de carte du gouvernement du Qc",
+      "type": "xyz",
+      "source": {
+        "url": "https://geoegl.msp.gouv.qc.ca/carto/tms/1.0.0/carte_gouv_qc_ro@EPSG_3857/{z}/{x}/{-y}.png"
+      }
+    },    
+    {
+      "title": "Débits de circulation - Transports Québec",
+      "type": "wms",
+      "source": {
+        "url": "https://geoegl.msp.gouv.qc.ca/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "circulation_routier",
+          "version": "1.3.0"
+        }
+      }
+    },
+     {
+      "title": "Debit-DMZ",
+      "type": "wms",
+      "source": {
+        "url": "https://ws.mapserver.transports.gouv.qc.ca/swtq?",
+        "params": {
+          "layers": "circulation_routier",
+          "version": "1.3.0"
+        }
+      }
+    },
+   {
+      "title": "CIR-Unit",
+      "type": "wms",
+      "source": {
+        "url": "https://ws.mapserver.unit.mtq.min.intra/sigo",
+        "params": {
+          "layers": "CIR-Circulation_routiere",
+          "version": "1.3.0"
+        }
+      }
+    }
+  ],
+  "toolbar": [
+    "searchResults",
+    "contextManager",
+    "mapDetails",
+    "timeAnalysis",
+    "print"
+  ],
+  "tools": [
+    {
+      "name": "searchResults"
+    },
+    {
+      "name": "contextManager"
+    },
+    {
+      "name": "mapDetails",
+      "options": {
+        "toggleLegendOnVisibilityChange": false
+      }
+    },
+    {
+      "name": "timeAnalysis"
+    },
+    {
+      "name": "print"
+    }
+
+  ]
+}
