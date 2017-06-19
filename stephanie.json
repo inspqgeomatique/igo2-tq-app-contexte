@@ -39,12 +39,12 @@
       }
     },
    {
-      "title": "CIR-Unit",
+      "title": "Modification de l'autorité responsable",
       "type": "wms",
       "source": {
-        "url": "https://ws.mapserver.unit.mtq.min.intra/sigo",
+        "url": "https://ws.mapserver.unit.mtq.min.intra/test_stephanie/decret",
         "params": {
-          "layers": "CIR-Circulation_routiere",
+          "layers": "modif_autoritresponsb",
           "version": "1.3.0"
         }
       }
