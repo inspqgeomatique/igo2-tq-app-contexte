@@ -16,6 +16,17 @@
         "url": "https://geoegl.msp.gouv.qc.ca/carto/tms/1.0.0/carte_gouv_qc_ro@EPSG_3857/{z}/{x}/{-y}.png"
       }
     },
+     {
+      "title": "RTSS en juin 2016",
+      "type": "wms",
+      "source": {
+        "url": "https://ws.mapserver.unit.mtq.min.intra/test_stephanie/decret",
+        "params": {
+          "layers": "RTSS_MTQ_JUIN_2016",
+          "version": "1.3.0"
+        }
+      }
+    },
       {
       "title": "RTSS en juin 2017",
       "type": "wms",
