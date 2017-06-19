@@ -16,7 +16,13 @@
         "url": "https://geoegl.msp.gouv.qc.ca/carto/tms/1.0.0/carte_gouv_qc_ro@EPSG_3857/{z}/{x}/{-y}.png"
       }
     },
-     {
+    {      "title": "Fond du décret",      
+     "type": "xyz",      
+     "source": {        
+       "url": "https://ws.mapcache.transports.gouv.qc.ca/mapcache/mapcache.fcgi/tms/1.0.0/decret_cartebase_epsg3857/{z}/{x}/{-y}.png"      
+     }    
+    },
+    {
       "title": "RTSS en juin 2016",
       "type": "wms",
       "source": {
