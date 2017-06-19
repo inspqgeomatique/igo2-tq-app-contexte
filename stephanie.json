@@ -48,6 +48,28 @@
           "version": "1.3.0"
         }
       }
+    },
+    {
+      "title": "Retrait",
+      "type": "wms",
+      "source": {
+        "url": "https://ws.mapserver.unit.mtq.min.intra/test_stephanie/decret",
+        "params": {
+          "layers": "retrait",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Ajout",
+      "type": "wms",
+      "source": {
+        "url": "https://ws.mapserver.unit.mtq.min.intra/test_stephanie/decret",
+        "params": {
+          "layers": "ajout",
+          "version": "1.3.0"
+        }
+      }
     }
   ],
   "toolbar": [
