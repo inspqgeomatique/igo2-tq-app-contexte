@@ -50,7 +50,7 @@
       }
     },
       {
-      "title": "Retrait",
+      "title": "Retrait de juin 2016 à juin 2017",
       "type": "wms",
       "source": {
         "url": "https://ws.mapserver.unit.mtq.min.intra/test_stephanie/decret",
@@ -61,7 +61,7 @@
       }
     },
       {
-      "title": "Ajout",
+      "title": "Ajout de juin 2016 à juin 2017",
       "type": "wms",
       "source": {
         "url": "https://ws.mapserver.unit.mtq.min.intra/test_stephanie/decret",
