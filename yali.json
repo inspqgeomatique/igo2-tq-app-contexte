@@ -38,6 +38,17 @@
         }
       }
     },
+    {      
+      "title": "Aéroport-DMZ",     
+      "type": "wms",     
+      "source": {       
+        "url": "https://ws.mapserver.transports.gouv.qc.ca/swtq?",        
+        "params": {         
+          "layers": "aeroport",         
+          "version": "1.3.0"        
+        }      
+      }    
+    }, 
    {
       "title": "CIR-Unit",
       "type": "wms",
