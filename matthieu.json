@@ -17,12 +17,12 @@
       }
     }, 
     {
-      "title": "Ecoles",
+      "title": "Poste de péage",
       "type": "wms",
       "source": {
-        "url": "https://infogeo.education.gouv.qc.ca/arcgis/services/DonneesOuvertes/SW_MEES/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+        "url": "http://cartes.geogratis.gc.ca/wms/roads_fr?service=wms&version=1.3.0&request=GetCapabilities",
         "params": {
-          "layers": "circulation_routier",
+          "layers": "road.tollpoint",
           "version": "1.3.0"
         }
       }
