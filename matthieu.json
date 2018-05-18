@@ -17,12 +17,12 @@
       }
     }, 
     {
-      "title": "Établissement scolaire collégial",
+      "title": "Lieu habité",
       "type": "wms",
       "source": {
-        "url": "https://www.geomsp.qc/ws/igo_gouvouvert.fcgi?",
+        "url": "https://ws.mapserver.transports.gouv.qc.ca/swtq?service=wms&request=getcapabilities",
         "params": {
-          "layers": "Établissement scolaire collégial",
+          "layers": "lieuhabite",
           "version": "1.3.0"
         }
       }
