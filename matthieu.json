@@ -17,12 +17,12 @@
       }
     }, 
     {
-      "title": "Poste de péagoe",
+      "title": "Établissement scolaire collégial",
       "type": "wms",
       "source": {
-        "url": "http://cartes.geogratis.gc.ca/wms/roads_fr?service=wms&version=1.3.0&request=GetCapabilities",
+        "url": "https://www.geomsp.qc/ws/igo_gouvouvert.fcgi?",
         "params": {
-          "layers": "road.tollpoint",
+          "layers": "Établissement scolaire collégial",
           "version": "1.3.0"
         }
       }
