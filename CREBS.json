@@ -19,6 +19,10 @@
    {
       "title": "Indice de défavorisation régional 2011",
       "type": "wms",
+     "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
       "source": {
         "url": "https://www.inspq.rtss.qc.ca/geo/cgi-bin/public?",
         "params": {
