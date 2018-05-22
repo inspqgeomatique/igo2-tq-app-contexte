@@ -68,7 +68,7 @@
     {
       "name": "mapDetails",
       "options": {
-        "toggleLegendOnVisibilityChange": false
+        "toggleLegendOnVisibilityChange": true
       }
     },
     {
