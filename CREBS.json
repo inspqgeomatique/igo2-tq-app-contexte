@@ -31,6 +31,7 @@
     {
       "title": "Debit-DMZ",
       "type": "wms",
+      "visible": false,
       "source": {
         "url": "https://ws.mapserver.transports.gouv.qc.ca/swtq?",
         "params": {
@@ -42,6 +43,7 @@
    {
       "title": "CIR-Unit",
       "type": "wms",
+     "visible": false,
       "source": {
         "url": "https://ws.mapserver.unit.mtq.min.intra/sigo",
         "params": {
