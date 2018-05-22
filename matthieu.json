@@ -20,7 +20,7 @@
       "title": "Ilots fraicheurs",
       "type": "wms",
       "source": {
-        "url": "https://geoegl.msp.gouv.qc.ca/ws/igo_gouvouvert.fcgi"
+        "url": "https://geoegl.msp.gouv.qc.ca/ws/igo_gouvouvert.fcgi",
         "params": {
           "layers": "inspq_temperature_surface",
           "version": "1.3.0"
