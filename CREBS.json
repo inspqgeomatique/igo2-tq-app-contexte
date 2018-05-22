@@ -21,10 +21,7 @@
       "type": "wms",
      "visible": true,
      "opacity":0.7,
-      "optionsFromCapabilities": true,
-      "metadata": {
-          "extern": true
-      },
+     
       "source": {
         "url": "https://www.inspq.rtss.qc.ca/geo/cgi-bin/public?",
         "params": {
