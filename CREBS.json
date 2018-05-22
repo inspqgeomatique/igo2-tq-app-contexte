@@ -19,8 +19,6 @@
    {
       "title": "Indice de défavorisation régional 2011",
       "type": "wms",
-     
-     
       "source": {
         "url": "https://www.inspq.rtss.qc.ca/geo/cgi-bin/public?",
         "params": {
@@ -29,7 +27,6 @@
         }
       }
     }, 
-    
     {
       "title": "Debit-DMZ",
       "type": "wms",
@@ -55,25 +52,51 @@
       }
     }
   ],
-   "tools": [
+  "toolbar": [
+    "searchResults",
+    "contextManager",
+    "mapDetails",
+    "shareMap",
+    "catalog",
+    "timeAnalysis",
+    "importExport",
+    "print"
+  ],
+  "tools": [
     {
-      "name": "searchResults"
+      "name": "searchResults",
+      "title": "Recherche"
     },
     {
-      "name": "contextManager"
+      "name": "contextManager",
+      "title": "Vues"
     },
     {
       "name": "mapDetails",
+      "title": "Couches",
       "options": {
-        "toggleLegendOnVisibilityChange": true
+        "toggleLegendOnVisibilityChange": false
       }
+    },
+        {
+      "name": "shareMap"
+    },
+    {
+      "name": "catalog",
+      "title": "Catalogue"
+    },
+    {
+      "name": "catalogLayers",
+      "title": "Catalogue"
     },
     {
       "name": "timeAnalysis"
     },
     {
+      "name": "importExport"
+    },
+    {
       "name": "print"
     }
-
   ]
 }
