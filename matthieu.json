@@ -16,8 +16,18 @@
         "url": "https://geoegl.msp.gouv.qc.ca/carto/tms/1.0.0/carte_gouv_qc_ro@EPSG_3857/{z}/{x}/{-y}.png"
       }
     }, 
- 
-     {
+    {
+      "title": "Defavo",
+      "type": "wms",
+      "source": {
+        "url": "https://www.inspq.rtss.qc.ca/geo/cgi-bin/public?",
+        "params": {
+          "layers": "regional_2011_sociale",
+          "version": "1.1.1"
+        }
+      }
+    }, 
+    {
       "title": "Debit-DMZ",
       "type": "wms",
       "source": {
