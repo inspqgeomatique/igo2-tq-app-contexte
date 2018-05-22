@@ -31,9 +31,7 @@
           "layers": "regional_2011_sociale",
           "version": "1.1.1"
         }
-      },
-     "queryFormat": "html",
-       "queryHtmlTarget": "innerhtml"
+      }
     }, 
     
     {
