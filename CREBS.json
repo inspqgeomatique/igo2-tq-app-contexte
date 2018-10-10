@@ -61,7 +61,11 @@
       "type": "wms",
      "visible": true,
       "source": {
-        "url": "https://geoegl.msp.gouv.qc.ca/ws/mffpecofor.fcgi"
+        "url": "https://geoegl.msp.gouv.qc.ca/ws/mffpecofor.fcgi",
+        "params": {
+          "layers": "lidar_mnt",
+          "version": "1.3.0"
+        }
       }
     }
   ],
