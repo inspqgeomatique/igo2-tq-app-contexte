@@ -10,7 +10,7 @@
   },
   "layers": [
     {
-      "title": "Font de carte du gouvernement du Qc",
+      "title": "Fond de carte du gouvernement du Qc",
       "type": "xyz",
       "source": {
         "url": "/carto/tms/1.0.0/carte_gouv_qc_ro@EPSG_3857/{z}/{x}/{-y}.png"
