@@ -55,18 +55,6 @@
           "version": "1.3.0"
         }
       }
-    },
-    {
-      "title": "mffp",
-      "type": "wms",
-     "visible": true,
-      "source": {
-        "url": "https://geoegl.msp.gouv.qc.ca/ws/mffpecofor.fcgi",
-        "params": {
-          "layers": "lidar_mnt",
-          "version": "1.3.0"
-        }
-      }
     }
   ],
   "toolbar": [
