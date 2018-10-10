@@ -61,7 +61,7 @@
       "type": "wms",
      "visible": true,
       "source": {
-        "url": "https://geoegl.msp.gouv.qc.ca/ws/mffpecofor.fcgi?request=getcapabilities&service=wms"
+        "url": "https://geoegl.msp.gouv.qc.ca/ws/mffpecofor.fcgi"
       }
     }
   ],
