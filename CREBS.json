@@ -17,16 +17,16 @@
       }
     }, 
    {
-      "title": "Indice de défavorisation régional 2011",
+      "title": "Matiere",
       "type": "wms",
      "optionsFromCapabilities": true,
       "metadata": {
           "extern": true
       },
       "source": {
-        "url": "https://www.inspq.rtss.qc.ca/geo/cgi-bin/public?",
+        "url": "http://publicmapserver.dev.inspq.qc.ca/cgi-bin/mapserv?",
         "params": {
-          "layers": "regional_2011_sociale",
+          "layers": "/maps/test3.map",
           "request": "GetMap",
           "version": "1.1.1"
         }
