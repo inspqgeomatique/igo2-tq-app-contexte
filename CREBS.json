@@ -24,10 +24,9 @@
           "extern": true
       },
       "source": {
-        "url": "http://publicmapserver.dev.inspq.qc.ca/cgi-bin/mapserv?",
+        "url": "http://publicmapserver.dev.inspq.qc.ca/cgi-bin/mapserv?map=/maps/test3.map",
         "params": {
-          "layers": "/maps/test3.map",
-          "request": "GetMap",
+          "layers": "matiere_dangereuse",
           "version": "1.1.1"
         }
       }
